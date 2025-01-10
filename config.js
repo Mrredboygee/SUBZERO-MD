@@ -22,7 +22,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "enter your subzero md session id here",
+SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~PvAWhLAQ#dzcF_ehfnr_3DaoMwfvtiRMwYOnH7kVPV0qaomUro8g",
  
 PREFIX: process.env.PREFIX || ".",
 // Enter Your Desired Prefix
@@ -72,7 +72,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 AUTO_STATUS_MSG: process.env.AUTO_STATUS__MSG || "*[❄️] Hi there, SUBZERO-MD viewed your Status🎐*",
 
 // set the auto reply massage on status reply    
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
 ANTI_LINK: process.env.ANTI_LINK || "true",
